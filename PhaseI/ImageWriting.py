@@ -9,3 +9,7 @@ cv2.circle(image, (150,84), 50, (200,0,0),5)
 cv2.imshow('image',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+//Draw two circle and a line across the image.
+// The parameter for line are(source,starting_point,end_point,width_of_line)
+// The parameter for circle are(source,centre,radius,color_code,width_of_line)
